@@ -5,7 +5,9 @@ import Cover from "../components/Cover";
 import Search from "../components/Search";
 import Book from "../components/Book";
 import Continue from "../components/Continue";
+import Listbook from "../components/Listbook";
 import Newbook from "../components/Newbook";
+
 
 export default function Main() {
     return (
@@ -16,8 +18,7 @@ export default function Main() {
                 <Book style={{ margin: 20 }}/>
                 <Continue style={{ margin: 20 }}/>
                 <Newbook style={{ margin: 20 }}/>
-            </View>
+             </View>
         </ScrollView>
-
     );
 }
