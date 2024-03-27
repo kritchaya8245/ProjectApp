@@ -14,8 +14,6 @@ export default function Main() {
         <ScrollView>
             <View style={{ flex: 1, backgroundColor: '#212121', marginTop: 20 }}>
                 <Cover />
-                <Search />
-                <Book style={{ margin: 20 }}/>
                 <Continue style={{ margin: 20 }}/>
                 <Newbook style={{ margin: 20 }}/>
              </View>

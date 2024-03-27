@@ -13,7 +13,7 @@ export default function Book(props) {
 
     return (
         <View style={props.style}>
-            <View style={{ padding: 10 }}>
+            <View style={{ marginTop:2 }}>
                 <Text style={{ fontSize: 20, color: "white" }}>MY BOOK</Text>
                 <Text style={{ color: "grey" }}>your bookshelf</Text>
             </View>

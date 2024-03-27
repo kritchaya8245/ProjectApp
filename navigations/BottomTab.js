@@ -4,6 +4,8 @@ import { FontAwesome } from "@expo/vector-icons";
 import Home from '../components/Home';
 import Listbook from '../components/Listbook';
 import Main from '../screens/Main';
+import Profile from '../components/Profile';
+import ProfileList from '../screens/ProfileList';
 
 
 const Tab = createBottomTabNavigator();
@@ -26,6 +28,14 @@ export default function BottomTab() {
             options={{
               tabBarLabel: "อ่านต่อ",
               tabBarIcon: ({ color, size }) => ( <FontAwesome name="book" color={color} size={size} /> ),
+            }}
+          />
+          <Tab.Screen
+            name="Profile"
+            component={ProfileList}
+            options={{
+              tabBarLabel: "บัญชี",
+              tabBarIcon: ({ color, size }) => ( <FontAwesome name="user" color={color} size={size} /> ),
             }}
           />
         </Tab.Navigator>
